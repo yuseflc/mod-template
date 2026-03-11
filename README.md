@@ -21,6 +21,7 @@
 - [Configuration](#configuration)
 - [Development](#development)
 - [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -108,7 +109,7 @@ forge_version=47.4.16
 mapping_channel=parchment
 mapping_version=2024.02.18-1.20.1
 ```
-> **Note:** This template uses **[Parchment](https://parchmentmc.org/)** mappings by default for highly readable parameter names and javadocs. Check their **[documentation](https://parchmentmc.org/)** for version changes.
+> **Note:** This template uses **[Parchment](https://parchmentmc.org/)** mappings by default for highly readable parameter names and Javadocs. Check their **[documentation](https://parchmentmc.org/)** for version changes.
 
 ---
 
@@ -150,11 +151,15 @@ When syncing or building the project, you might see the following warnings in yo
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the **[issues page](https://github.com/yuseflc/mod-template/issues)** if you want to report a bug, request a new feature, or let me know about outdated dependencies.
-
+Feel free to check the **[issues page](https://github.com/yuseflc/forge-mod-template/issues)** if you want to report a bug, request a new feature, or let me know about outdated dependencies.
 
 ---
 
+## License
+
+This project is licensed under the **MIT-License** - see the [LICENSE](LICENSE) file for details.
+
+---
 
 <div align="center">
   <b>Created by <a href="https://github.com/yuseflc">yuseflc</a></b>
