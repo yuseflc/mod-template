@@ -4,7 +4,7 @@
 
 [![Java Version](https://img.shields.io/badge/Java-17-orange.svg?style=flat-square&logo=java)](https://adoptium.net/temurin/releases/?version=17)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.20.x-588265.svg?style=flat-square&logo=minecraft)](https://minecraft.net/)
-[![Forge](https://img.shields.io/badge/Forge-47.2.0-dfa338.svg?style=flat-square)](https://files.minecraftforge.net/)
+[![Forge](https://img.shields.io/badge/Forge-47.4.16-dfa338.svg?style=flat-square)](https://files.minecraftforge.net/)
 [![Gradle](https://img.shields.io/badge/Gradle-8.x-02303A.svg?style=flat-square&logo=gradle)](https://gradle.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](#license)
 
@@ -104,7 +104,7 @@ mod_description=Example Mod by yourname
 ### Minecraft & Forge Versions
 ```properties
 minecraft_version=1.20.1
-forge_version=47.2.0
+forge_version=47.4.16
 mapping_channel=parchment
 mapping_version=2024.02.18-1.20.1
 ```
