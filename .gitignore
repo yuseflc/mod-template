@@ -111,8 +111,15 @@ gradle-app.setting
 
 **/build/
 
-# Common working directory
-run/
+# Common working directory - Exclude only temporary files generated at runtime
+# IMPORTANT FOR TEMPLATE: run/config/ and run/defaultconfigs/ must be included
+run/logs/
+run/saves/
+run/mods/
+run/crashes/
+run/options.txt
+run/.launcher_profiles.json
+run/launcher_profiles.json
 runs/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
