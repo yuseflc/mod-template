@@ -18,6 +18,7 @@
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
+- [.gitignore Configuration](#gitignore-configuration)
 - [Configuration](#configuration)
 - [Development](#development)
 - [Contributing](#contributing)
@@ -85,7 +86,27 @@ mod-template/
 ```
 
 ---
+## .gitignore Configuration
 
+This template includes a carefully configured `.gitignore` that filters out files unnecessary for development while preserving template essentials:
+
+### Excluded from Git
+- **`build/`** - Compiled classes and artifacts (regenerated on build)
+- **`run/logs/`** - Client/Server logs
+- **`run/saves/`** - Minecraft world saves
+- **`run/mods/`** - Downloaded mods
+- **IDE files** - `.idea/`, `*.iml`, etc. (IntelliJ)
+- **OS files** - `.DS_Store`, `Thumbs.db`, etc.
+
+### Included in Git (Important for Template)
+- **`run/config/`** - Mod configuration files
+- **`run/defaultconfigs/`** - Default configuration templates
+- **`src/`** - All source code and resources
+- **Gradle files** - `gradle/`, `build.gradle`, `gradle.properties`
+
+**Note:** The `build/` directory is safe to exclude because it regenerates automatically when you run `./gradlew clean build` or any gradle task.
+
+---
 ## Configuration
 
 All the main configuration happens inside the `gradle.properties` file. It's the central hub for your mod's identity.
